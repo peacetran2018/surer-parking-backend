@@ -1,6 +1,0 @@
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.csprojAssemblyReference.cache
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.csproj.CoreCompileInputs.cache
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.RazorAssemblyInfo.cache
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.RazorAssemblyInfo.cs
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.AssemblyInfoInputs.cache
-D:\Working\surer\2.backend\surer_backend\surer_backend\obj\Debug\netcoreapp2.2\surer_backend.AssemblyInfo.cs
