@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend\\parking-backend.csproj": {}
+    "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend.csproj": {}
   },
   "projects": {
-    "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend\\parking-backend.csproj": {
+    "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend\\parking-backend.csproj",
+        "projectUniqueName": "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend.csproj",
         "projectName": "parking-backend",
-        "projectPath": "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend\\parking-backend.csproj",
+        "projectPath": "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Working\\surer\\2.backend\\parking-backend\\parking-backend\\obj\\",
+        "outputPath": "D:\\Working\\surer\\2.backend\\parking-backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,34 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

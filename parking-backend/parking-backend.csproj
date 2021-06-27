@@ -5,5 +5,30 @@
     <RootNamespace>parking_backend</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20210625141357_initialmigration.cs" />
+    <Compile Remove="Migrations\20210625141357_initialmigration.Designer.cs" />
+    <Compile Remove="Migrations\20210625141503_initialmigration.cs" />
+    <Compile Remove="Migrations\20210625141503_initialmigration.Designer.cs" />
+    <Compile Remove="Migrations\20210625151042_initialmigration.cs" />
+    <Compile Remove="Migrations\20210625151042_initialmigration.Designer.cs" />
+    <Compile Remove="Migrations\20210625151419_initialmigration.cs" />
+    <Compile Remove="Migrations\20210625151419_initialmigration.Designer.cs" />
+    <Compile Remove="Migrations\20210625151545_initialmigration.cs" />
+    <Compile Remove="Migrations\20210625151545_initialmigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 </Project>
