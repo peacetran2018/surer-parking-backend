@@ -7,5 +7,5 @@
 
 ## Development Run
 
-- Restore DB (surer-parking-backend/parking-backend/db/surer_parking.bak) 
+- Restore DB (parking-backend/db/surer_parking.bak) 
 - Open parking-backend.sln AND Run Web API
